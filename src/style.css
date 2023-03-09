@@ -1,0 +1,33 @@
+:root {
+  --fontTitulo: "Pacifico", cursive;
+  --corDestaque:#b40606;
+}
+
+.image-carousel {
+  height: 40vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 0 70%;
+}
+
+.carousel h1 {
+  color: #fff;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+.fontTitulo{
+    font-family: var(--fontTitulo);
+}
+
+a.fontTitulo, h2.fontTitulo{
+    color: var(--corDestaque) ;
+}
+
+div.card > img{
+  height: 40%;
+  object-fit: cover;
+}
+
+.bg-gray{
+  background-color: #d6d6d6c4;
+}
